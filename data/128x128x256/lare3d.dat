@@ -1,0 +1,187 @@
+ nprocx, nprocy, nproca =            4           4           4
+ nx, ny, nz =           32          32          64
+ 
+ length_x =    4.00000000000000     
+ length_y =    4.00000000000000     
+ length_z =    20.0000000000000     
+ 
+ x_start =   -2.00000000000000     
+ x_end =    2.00000000000000     
+ x_stretch =  F
+ y_start =   -2.00000000000000     
+ y_end =    2.00000000000000     
+ y_stretch =  F
+ z_start =   -10.0000000000000     
+ z_end =    10.0000000000000     
+ z_stretch =  F
+ 
+ xbc_min =            2
+ xbc_max =            2
+ ybc_max =            2
+ ybc_min =            2
+ zbc_min =            2
+ zbc_max =            2
+ 
+ t_start, t_end =   0.000000000000000E+000   400.000000000000     
+ nsteps =          -1
+ dt_multiplier =  0.577350269189626     
+ 
+ 
+ resistive_mhd =  T
+ eta_background =   0.000000000000000E+000
+ eta_crit =   1.000000000000000E-003
+ 
+ conduction =  F
+ con_flux_limited =  F
+ con_limit =   1.000000000000000E-002
+ con_b_min =   1.000000000000000E-003
+ 
+ radiation =  F
+ rad_implicit =  F
+ rad_alg =            2
+ rad_min_tp =   0.000000000000000E+000
+ rad_min_loss =   1.000000000000000E-012
+ rad_dTp_frac =   1.000000000000000E-002
+ rad_avTp =  T
+ 
+ sor_it_lim =         1000
+ sor_w =    1.60000000000000     
+ sor_err =   1.000000000000000E-003
+ sor_err_wgt =            1
+ 
+ conrad_half_dt =  T
+ 
+ rke =  T
+ 
+ initial =            1
+ restart_snapshot =            0
+ cowling_resistivity =  F
+ ionise_pot =   0.000000000000000E+000
+ 
+ tensor shock viscosity
+ linear viscosity coeff =   0.100000000000000     
+ quadratic viscosity coeff =   0.500000000000000     
+ uniform tensor viscosity coeff =   0.000000000000000E+000
+ 
+ damping =  F
+ eos_number =            1
+ neutral_gas =  F
+ 
+ iniTp =    20000.0000000000     
+ iniEn =    495264589.375918     
+ 
+ lp_rad =    1.00000000000000     
+ lp_alp =    1.80000000000000     
+ lp_omg =    3.00000000000000     
+ 
+ perturbation =  T
+ ptb_sign =    1.00000000000000     
+ ptb_k =   0.942477796076938     
+ ptb_amp =   1.000000000000000E-004
+ ptb_lim =    10.0000000000000     
+ 
+ diag_corks =  F
+ 
+ gamma =    1.66666666666667     
+ mf =    1.00000000000000     
+ m0 =   1.672621580000000E-027
+ 
+ B0 =   5.000000000000000E-003
+ L0 =    1000000.00000000     
+ NmDn0 =   1.000000000000000E+015
+ 
+ Dn0  =   1.672621580000000E-012
+ vA =    3448785.82208250     
+ tm0 =   0.289957118704508     
+ P0 =    19.8943678864869     
+ Tp0 =    1440941739.23297     
+ Tpbar =   1.387981169221059E-005
+ En0 =    11894123646597.3     
+ Enbar =   4.163943507663176E-005
+ K0 =    16552595.6611895     
+ eta0 =   1.841003787734614E-008
+ Dumping            0  at time   0.000000000000000E+000  (dt=
+  0.000000000000000E+000 )
+ Dumping            1  at time    10.0037368000252       (dt=
+  1.805615164563742E-002 )
+ Dumping            2  at time    20.0064267640883       (dt=
+  1.805471206766000E-002 )
+ Dumping            3  at time    30.0084929366632       (dt=
+  1.805386870491556E-002 )
+ Dumping            4  at time    40.0101238946460       (dt=
+  1.805310259596416E-002 )
+ Dumping            5  at time    50.0112876502208       (dt=
+  1.805203604715281E-002 )
+ Dumping            6  at time    60.0098541277092       (dt=
+  1.803989674368608E-002 )
+ Dumping            7  at time    70.0150889547439       (dt=
+  1.801037613083104E-002 )
+ Dumping            8  at time    80.0081532928559       (dt=
+  1.792993038775054E-002 )
+ Dumping            9  at time    90.0122213764684       (dt=
+  1.761518165297466E-002 )
+ Dumping           10  at time    100.005425257992       (dt=
+  1.215959466526216E-002 )
+ Dumping           11  at time    110.003411445099       (dt=
+  1.225153282735850E-002 )
+ Dumping           12  at time    120.002673330176       (dt=
+  1.184547435510646E-002 )
+ Dumping           13  at time    130.001754512879       (dt=
+  1.263329984797604E-002 )
+ Dumping           14  at time    140.004607423604       (dt=
+  1.301837934933141E-002 )
+ Dumping           15  at time    150.005520233767       (dt=
+  1.158842197538189E-002 )
+ Dumping           16  at time    160.000061160898       (dt=
+  1.231406290473075E-002 )
+ Dumping           17  at time    170.005137312140       (dt=
+  1.220211066899324E-002 )
+ Dumping           18  at time    180.011008041775       (dt=
+  1.190001837421276E-002 )
+ Dumping           19  at time    190.006351751521       (dt=
+  1.153739505526282E-002 )
+ Dumping           20  at time    200.009943801048       (dt=
+  1.141868538688563E-002 )
+ Dumping           21  at time    210.001005039685       (dt=
+  1.115864676080600E-002 )
+ Dumping           22  at time    220.011079760905       (dt=
+  1.122796116128409E-002 )
+ Dumping           23  at time    230.002487723594       (dt=
+  1.088883547475246E-002 )
+ Dumping           24  at time    240.006829299934       (dt=
+  1.057864461070606E-002 )
+ Dumping           25  at time    250.003326980291       (dt=
+  1.048988224941826E-002 )
+ Dumping           26  at time    260.002324519556       (dt=
+  1.022927178669457E-002 )
+ Dumping           27  at time    270.001657564299       (dt=
+  1.011038223059887E-002 )
+ Dumping           28  at time    280.009141348377       (dt=
+  1.051269766169397E-002 )
+ Dumping           29  at time    290.003448405091       (dt=
+  1.059674630073633E-002 )
+ Dumping           30  at time    300.007168636702       (dt=
+  1.067099876918068E-002 )
+ Dumping           31  at time    310.008624603791       (dt=
+  1.066898921159849E-002 )
+ Dumping           32  at time    320.007405461471       (dt=
+  1.045415858014857E-002 )
+ Dumping           33  at time    330.005035001739       (dt=
+  1.029381833770113E-002 )
+ Dumping           34  at time    340.009537790993       (dt=
+  1.040107720512889E-002 )
+ Dumping           35  at time    350.005820345200       (dt=
+  1.045702766762286E-002 )
+ Dumping           36  at time    360.001421158998       (dt=
+  1.036952085248769E-002 )
+ Dumping           37  at time    370.010260553244       (dt=
+  1.028664049116422E-002 )
+ Dumping           38  at time    380.005035223461       (dt=
+  1.019092312204791E-002 )
+ Dumping           39  at time    390.008808166549       (dt=
+  1.010477026226891E-002 )
+ Dumping           40  at time    400.006532905907       (dt=
+  1.003437483434343E-002 )
+ final nsteps / time =       32905   400.006532905907     
+ 
+runtime =    2h 23m 39s on   64 process elements.

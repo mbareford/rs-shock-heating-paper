@@ -1,0 +1,121 @@
+ nprocx, nprocy, nproca =            8           8           8
+ nx, ny, nz =           64          64         128
+ 
+ length_x =    4.00000000000000     
+ length_y =    4.00000000000000     
+ length_z =    20.0000000000000     
+ 
+ x_start =   -2.00000000000000     
+ x_end =    2.00000000000000     
+ x_stretch =  F
+ y_start =   -2.00000000000000     
+ y_end =    2.00000000000000     
+ y_stretch =  F
+ z_start =   -10.0000000000000     
+ z_end =    10.0000000000000     
+ z_stretch =  F
+ 
+ xbc_min =            2
+ xbc_max =            2
+ ybc_max =            2
+ ybc_min =            2
+ zbc_min =            2
+ zbc_max =            2
+ 
+ t_start, t_end =   0.000000000000000E+000   400.000000000000     
+ nsteps =          -1
+ dt_multiplier =  0.577350269189626     
+ 
+ 
+ resistive_mhd =  T
+ eta_background =   0.000000000000000E+000
+ eta_crit =   1.000000000000000E-003
+ 
+ conduction =  F
+ con_flux_limited =  F
+ con_limit =   1.000000000000000E-002
+ con_b_min =   1.000000000000000E-003
+ 
+ radiation =  F
+ rad_implicit =  F
+ rad_alg =            2
+ rad_min_tp =   0.000000000000000E+000
+ rad_min_loss =   1.000000000000000E-012
+ rad_dTp_frac =   1.000000000000000E-002
+ rad_avTp =  T
+ 
+ sor_it_lim =         1000
+ sor_w =    1.60000000000000     
+ sor_err =   1.000000000000000E-003
+ sor_err_wgt =            1
+ 
+ conrad_half_dt =  T
+ 
+ rke =  T
+ 
+ initial =            1
+ restart_snapshot =            0
+ cowling_resistivity =  F
+ ionise_pot =   0.000000000000000E+000
+ 
+ tensor shock viscosity
+ linear viscosity coeff =   0.100000000000000     
+ quadratic viscosity coeff =   0.500000000000000     
+ uniform tensor viscosity coeff =   0.000000000000000E+000
+ 
+ damping =  F
+ eos_number =            1
+ neutral_gas =  F
+ 
+ iniTp =    20000.0000000000     
+ iniEn =    495264589.375918     
+ 
+ lp_rad =    1.00000000000000     
+ lp_alp =    1.80000000000000     
+ lp_omg =    3.00000000000000     
+ 
+ perturbation =  T
+ ptb_sign =    1.00000000000000     
+ ptb_k =   0.942477796076938     
+ ptb_amp =   1.000000000000000E-004
+ ptb_lim =    10.0000000000000     
+ 
+ diag_corks =  F
+ 
+ gamma =    1.66666666666667     
+ mf =    1.00000000000000     
+ m0 =   1.672621580000000E-027
+ 
+ B0 =   5.000000000000000E-003
+ L0 =    1000000.00000000     
+ NmDn0 =   1.000000000000000E+015
+ 
+ Dn0  =   1.672621580000000E-012
+ vA =    3448785.82208250     
+ tm0 =   0.289957118704508     
+ P0 =    19.8943678864869     
+ Tp0 =    1440941739.23297     
+ Tpbar =   1.387981169221059E-005
+ En0 =    11894123646597.3     
+ Enbar =   4.163943507663176E-005
+ K0 =    16552595.6611895     
+ eta0 =   1.841003787734614E-008
+ Dumping            0  at time   0.000000000000000E+000  (dt=
+  0.000000000000000E+000 )
+ Dumping            1  at time    100.001633861810       (dt=
+  2.822846423055705E-003 )
+ Dumping            2  at time    150.003165338060       (dt=
+  2.915959636196404E-003 )
+ Dumping            3  at time    200.002345634952       (dt=
+  2.533984056121235E-003 )
+ Dumping            4  at time    250.001791852424       (dt=
+  2.394178166300982E-003 )
+ Dumping            5  at time    300.002686805786       (dt=
+  2.136404606064617E-003 )
+ Dumping            6  at time    350.003256443222       (dt=
+  1.950107041191800E-003 )
+ Dumping            7  at time    400.000187236357       (dt=
+  1.837252090650000E-003 )
+ final nsteps / time =       26644   400.000187236357     
+ 
+runtime =   10h 50m 45s on  512 process elements.
