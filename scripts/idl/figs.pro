@@ -8,7 +8,9 @@ get_en_plot_data,data_path+'/128x128x256',100
 get_en_plot_data,data_path+'/256x256x512',100
 get_en_plot_data,data_path+'/512x512x1024',100
 
-get_htvisc_data,data_path+'/256x256x512/midplanes',0,400,10, 0,256,0,256,256,256
+; assuming that midplane sections extend from z=-1 to z=1, which covers around 51 grid cells
+dV = (4.0d0/256.0d0)*(4.0d0/256.0d0)*(20.0d0/512.0d0)
+get_htvisc_data,data_path+'/256x256x512',data_path+'/256x256x512/midplanes',0,400,10, 0,256,0,256,26,26, dV
 
 do_rad_line_plot, data_path+'/256x256x512/midplanes',95, 0, 9,0.0d0,0.0d0, 0.0d0,1.0d0,0.0d0, 0.0d0,1.0d0,0.0d0, 2,0.0d0,0, 27.0d0,0.5d0, 1.0d0,'r', '', data_path+'/256x256x512/midplanes/bz_r_95.txt'
 do_rad_line_plot, data_path+'/256x256x512/midplanes',95, 0, 16,0.0d0,0.0d0, 0.0d0,1.0d0,0.0d0, 0.0d0,1.0d0,0.0d0, 2,0.0d0,0, 27.0d0,0.5d0, 1.0d0,'r', '', data_path+'/256x256x512/midplanes/btheta_r_95.txt'
